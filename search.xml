@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>第二篇文章</title>
+      <link href="/2023/11/26/2023-11-26%E7%AC%AC%E4%BA%8C%E7%AF%87%E6%96%87%E7%AB%A0/"/>
+      <url>/2023/11/26/2023-11-26%E7%AC%AC%E4%BA%8C%E7%AF%87%E6%96%87%E7%AB%A0/</url>
+      
+        <content type="html"><![CDATA[<div class="note primary simple"><p>主要提示标签+++++</p></div><div class="timeline blue"><div class='timeline-item headline'><div class='timeline-item-title'><div class='item-circle'><p>时间轴样式</p></div></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>2023-11-26 <a href="https://baike.baidu.com/item/%E5%9B%9B%E5%88%86%E4%BD%8D%E8%B7%9D/10671363">References</a></p></div></div><div class='timeline-item-content'><p>四分位数<br>四分位数（Quartile）是统计学中分位数的一种，即把所有数值由小到大排列并分成四等份，处于三个分割点位置的数值就是四分位数。</p><pre><code>第一四分位数(Q1)，又称“较小四分位数”，等于该样本中所有数值由小到大排列后第25%的数字。第二四分位数(Q2)，又称“中位数”，等于该样本中所有数值由小到大排列后第50%的数字。第三四分位数(Q3)，又称“较大四分位数”，等于该样本中所有数值由小到大排列后第75%的数字。</code></pre><p>第三四分位数与第一四分位数的差距又称四分位距（InterQuartile Range, IQR）。</p></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>2023-11-26 <a href="https://github.com/volantis-x/hexo-theme-volantis/releases/tag/2.6.3">2.6.2 -&gt; 2.6.3</a></p></div></div><div class='timeline-item-content'><p>123456789…</p></div></div></div>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>第一篇文章</title>
       <link href="/2023/07/06/2023-7-6%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/"/>
       <url>/2023/07/06/2023-7-6%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</url>
