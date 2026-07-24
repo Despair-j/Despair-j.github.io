@@ -4,6 +4,44 @@
   
     
     <entry>
+      <title>代码展示</title>
+      <link href="/2026/07/13/%E4%BB%A3%E7%A0%81%E5%B1%95%E7%A4%BA/"/>
+      <url>/2026/07/13/%E4%BB%A3%E7%A0%81%E5%B1%95%E7%A4%BA/</url>
+      
+        <content type="html"><![CDATA[<h1 id="整体展示"><a href="#整体展示" class="headerlink" title="整体展示"></a>整体展示</h1><p><u>下划线演示</u></p><p>文字<strong>加粗</strong>演示</p><p>文字<em>斜体</em>演示</p><p>文本<code>高亮</code>演示</p><p>文本<del>删除</del>线演示</p><p><font size = 5>5号字</font><br><font face="黑体">黑体</font><br><font color=blue>蓝色</font><br><font face="微软雅黑">微软雅黑</font><br><font face="STCAIYUN">华文彩云</font><br><font color=#008000>绿色</font><br><font color=Red>红色</font><br><font size=5>尺寸</font><br><font face="黑体" color=green size=5>黑体，绿色，尺寸为5（任意内容）</font></p><table><tr><td bgcolor=MistyRose>这里的背景色是：MistyRosen，此处输入任意想输入的内容</td></tr></table><blockquote><p> Java<br>二级引用演示<br>MySQL</p><blockquote><p>外键</p><p>事务</p><p><strong>行级锁</strong>(引用内部一样可以用格式)</p></blockquote><p>….</p></blockquote><hr><hr><ul><li>Java</li><li>Python</li><li>…</li></ul><ul><li>Java</li><li>Python</li><li>…</li></ul><ul><li>Java</li><li>Python</li><li>…</li></ul><!-- # 注意后面有空格 --><p>1.<br>2.<br>3.<br>4. </p><p>本地图片<br><img src="/image/7.jpg" alt="示例图片" style="zoom:50%;" /></p><p><a href="http://bee-temp-ab.bbroot.com/temp/7b39363decb4c36f407feeb1336ad2ce.jpg">在线图片链接</a></p><table><thead><tr><th>项目标号</th><th>资金</th><th>备注</th></tr></thead><tbody><tr><td>1</td><td>100，000</td><td>无</td></tr><tr><td>2</td><td>200，000</td><td>无</td></tr><tr><td>3</td><td>300,600</td><td>重要</td></tr></tbody></table><p>这是一个行内公式示例：$E &#x3D; mc^2$</p><p>$$<br>\int_{-\infty}^{\infty} e^{-x^2} dx &#x3D; \sqrt{\pi}<br>$$</p><p> `&#96;&#96;shell<br> git add .commit -m “npm publish version patch<br> git push<br> `&#96;&#96;</p><h2 id="H2"><a href="#H2" class="headerlink" title="H2"></a>H2</h2><h3 id="H3"><a href="#H3" class="headerlink" title="H3"></a>H3</h3><h4 id="H4"><a href="#H4" class="headerlink" title="H4"></a>H4</h4><h5 id="H5"><a href="#H5" class="headerlink" title="H5"></a>H5</h5><h6 id="H6"><a href="#H6" class="headerlink" title="H6"></a>H6</h6>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> text </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>美化标签</title>
+      <link href="/2026/07/13/%E7%BE%8E%E5%8C%96%E6%A0%87%E7%AD%BE/"/>
+      <url>/2026/07/13/%E7%BE%8E%E5%8C%96%E6%A0%87%E7%AD%BE/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> code </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Records of the Grand Historian</title>
       <link href="/2026/07/07/try-again-never-give-up/"/>
       <url>/2026/07/07/try-again-never-give-up/</url>
