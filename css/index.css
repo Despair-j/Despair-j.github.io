@@ -1764,7 +1764,7 @@ body {
   background: var(--global-bg);
   color: var(--font-color);
   font-size: var(--global-font-size);
-  font-family: var(--global-font), Consolas_1, -apple-system, 'Quicksand', 'Nimbus Roman No9 L', 'PingFang SC';
+  font-family: MyCustomFont, "Georgia", "Arial", sans-serif, XINGSHU, hongleixingshu;
   line-height: 2;
   -webkit-tap-highlight-color: rgba(0,0,0,0);
   scroll-behavior: smooth;
@@ -1893,7 +1893,7 @@ a:hover {
 .site-name,
 #aside-content .author-info-name,
 #aside-content .author-info-description {
-  font-family: var(--global-font), Consolas_1, -apple-system, 'Quicksand', 'Nimbus Roman No9 L', 'PingFang SC';
+  font-family: XINGSHU, hongleixingshu;
 }
 .text-center {
   text-align: center;
@@ -2074,7 +2074,7 @@ figure.highlight pre .javascript .function {
 .container pre,
 .container code {
   font-size: 14px;
-  font-family: consolas, Menlo, monospace, 'PingFang SC', 'Microsoft YaHei', sans-serif !important;
+  font-family: MyCodeFont, "Fira Code", "Courier", monospace, XINGSHU, hongleixingshu !important;
   border-radius: 6px;
 }
 .container code {
@@ -2408,7 +2408,7 @@ figure.highlight pre .javascript .function {
   height: 100%;
   vertical-align: top;
   text-align: center;
-  font-family: var(--global-font), Consolas_1, -apple-system, 'Quicksand', 'Nimbus Roman No9 L', 'PingFang SC';
+  font-family: XINGSHU, hongleixingshu;
 }
 @media screen and (max-width: 768px) {
   .type-404 .error-content .error-info {
@@ -5956,6 +5956,36 @@ figure.highlight pre .javascript .function {
 #gitalk-container .gt-meta {
   margin: 0 0 0.8em;
   padding: 6px 0 16px;
+}
+.katex-display {
+  overflow: auto hidden;
+  padding: 5px;
+}
+.katex-display .katex-show {
+  display: block;
+}
+.katex {
+  display: none;
+}
+.katex.katex-show {
+  display: inline;
+}
+mjx-container {
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding-bottom: 4px;
+  max-width: 100%;
+}
+mjx-container[display] {
+  display: block !important;
+  min-width: auto !important;
+}
+mjx-container:not([display]) {
+  display: inline-grid !important;
+}
+mjx-assistive-mml {
+  right: 0;
+  bottom: 0;
 }
 .aplayer {
   color: #4c4948;

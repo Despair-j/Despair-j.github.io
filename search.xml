@@ -4,12 +4,43 @@
   
     
     <entry>
+      <title>Hexo更新后可能遇到的新问题1.0</title>
+      <link href="/2026/07/27/Hexo%E6%9B%B4%E6%96%B0%E5%90%8E%E5%8F%AF%E8%83%BD%E9%81%87%E5%88%B0%E7%9A%84%E6%96%B0%E9%97%AE%E9%A2%981-0/"/>
+      <url>/2026/07/27/Hexo%E6%9B%B4%E6%96%B0%E5%90%8E%E5%8F%AF%E8%83%BD%E9%81%87%E5%88%B0%E7%9A%84%E6%96%B0%E9%97%AE%E9%A2%981-0/</url>
+      
+        <content type="html"><![CDATA[<table><tr><td bgcolor=Beige>下面是我所用到的所有新方法仅适用于2026以后想要搭建Hexo博客并且是应用了butterfly主题的用户，如果你采用了其他邪修方法攻破了重重困难，恭喜你能不用再看我下面的废话了</td></tr></table><font face="黑体"  size=4><p style="text-indent:2em">首先就是下载Node.js的版本问题，因为Node.js会同步你下载的npm的版本，所以这就意味着如果你后期只更新npm，而没有调整Node.js的版本，那么后面你遇到的所有npm更新都会出问题。不要怪我没提醒你。 </p></font><font face="黑体"  size=4><p style="text-indent:2em">然后就是npm下载路径问题，不要再去用哪个什么老橙色软件的镜像了，时代变了，要选用最新路径地址，如下：</p></font><details class="toggle" ><summary class="toggle-button" style="">npm镜像下载最新路径地址</summary><div class="toggle-content"><ol><li><p>查看当前源<br>npm config get registry</p></li><li><p>全局设置<br>npm config set registry <a href="https://registry.npmmirror.com">https://registry.npmmirror.com</a> —save</p></li></ol></div></details><font face="黑体"  size=4><p style="text-indent:2em">后面搭建你想挂哪个服务器托管就挂哪个托管，不想托管的话就直接你的git.io后缀那个域名就能直接免费使用，直接白嫖。 </p></font><font face="黑体"  size=4><p style="text-indent:2em">还有一个我想强调的问题，就是别人视频里的手把手教程不一定全都是对的，可能会有错的，也可能有些选项博主根本就没告诉你，比如你要想成功使用mathjax就得在主题配置文件里的use：添加上，不然后面你的文章里数学公式根本就显示不出来。 </p></font><font face="黑体"  size=4><p style="text-indent:2em">好了，就先写这么多，后面想起来了再继续补充。 </p></font>]]></content>
+      
+      
+      <categories>
+          
+          <category> 解决问题 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> text </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>代码展示</title>
       <link href="/2026/07/13/%E4%BB%A3%E7%A0%81%E5%B1%95%E7%A4%BA/"/>
       <url>/2026/07/13/%E4%BB%A3%E7%A0%81%E5%B1%95%E7%A4%BA/</url>
       
-        <content type="html"><![CDATA[<h1 id="整体展示"><a href="#整体展示" class="headerlink" title="整体展示"></a>整体展示</h1><p><u>下划线演示</u></p><p>文字<strong>加粗</strong>演示</p><p>文字<em>斜体</em>演示</p><p>文本<code>高亮</code>演示</p><p>文本<del>删除</del>线演示</p><p><font size = 5>5号字</font><br><font face="黑体">黑体</font><br><font color=blue>蓝色</font><br><font face="微软雅黑">微软雅黑</font><br><font face="STCAIYUN">华文彩云</font><br><font color=#008000>绿色</font><br><font color=Red>红色</font><br><font size=5>尺寸</font><br><font face="黑体" color=green size=5>黑体，绿色，尺寸为5（任意内容）</font></p><table><tr><td bgcolor=MistyRose>这里的背景色是：MistyRosen，此处输入任意想输入的内容</td></tr></table><blockquote><p> Java<br>二级引用演示<br>MySQL</p><blockquote><p>外键</p><p>事务</p><p><strong>行级锁</strong>(引用内部一样可以用格式)</p></blockquote><p>….</p></blockquote><hr><hr><ul><li>Java</li><li>Python</li><li>…</li></ul><ul><li>Java</li><li>Python</li><li>…</li></ul><ul><li>Java</li><li>Python</li><li>…</li></ul><!-- # 注意后面有空格 --><p>1.<br>2.<br>3.<br>4. </p><p>本地图片<br><img src="/image/7.jpg" alt="示例图片" style="zoom:50%;" /></p><p><a href="http://bee-temp-ab.bbroot.com/temp/7b39363decb4c36f407feeb1336ad2ce.jpg">在线图片链接</a></p><table><thead><tr><th>项目标号</th><th>资金</th><th>备注</th></tr></thead><tbody><tr><td>1</td><td>100，000</td><td>无</td></tr><tr><td>2</td><td>200，000</td><td>无</td></tr><tr><td>3</td><td>300,600</td><td>重要</td></tr></tbody></table><p>这是一个行内公式示例：$E &#x3D; mc^2$</p><p>$$<br>\int_{-\infty}^{\infty} e^{-x^2} dx &#x3D; \sqrt{\pi}<br>$$</p><p> `&#96;&#96;shell<br> git add .commit -m “npm publish version patch<br> git push<br> `&#96;&#96;</p><h2 id="H2"><a href="#H2" class="headerlink" title="H2"></a>H2</h2><h3 id="H3"><a href="#H3" class="headerlink" title="H3"></a>H3</h3><h4 id="H4"><a href="#H4" class="headerlink" title="H4"></a>H4</h4><h5 id="H5"><a href="#H5" class="headerlink" title="H5"></a>H5</h5><h6 id="H6"><a href="#H6" class="headerlink" title="H6"></a>H6</h6>]]></content>
+        <content type="html"><![CDATA[<h1 id="整体展示"><a href="#整体展示" class="headerlink" title="整体展示"></a>整体展示</h1><p><u>下划线演示</u></p><p>文字<strong>加粗</strong>演示</p><p>文字<em>斜体</em>演示</p><p>文本<code>高亮</code>演示</p><p>文本<del>删除</del>线演示</p><font size = 5>5号字</font><font face="黑体">黑体</font><font color=blue>蓝色</font><font face="微软雅黑">微软雅黑</font><font face="STCAIYUN">华文彩云</font><font color=#008000>绿色</font><font color=Red>红色</font><font size=5>尺寸</font><font face="黑体" color=green size=5>黑体，绿色，尺寸为5（任意内容）</font><table><tr><td bgcolor=MistyRose>这里的背景色是：MistyRosen，此处输入任意想输入的内容</td></tr></table><blockquote><p> Java<br>二级引用演示<br>MySQL</p><blockquote><p>外键</p><p>事务</p><p><strong>行级锁</strong>(引用内部一样可以用格式)</p></blockquote><p>….</p></blockquote><hr><hr><ul><li>Java</li><li>Python</li><li>…</li></ul><ul><li>Java</li><li>Python</li><li>…</li></ul><ul><li>Java</li><li>Python</li><li>…</li></ul><!-- # 注意后面有空格 --><ol><li></li><li></li><li></li><li></li></ol><p>本地图片<br><img src="/image/7.jpg" alt="示例图片" style="zoom:50%;" /></p><p><a href="http://bee-temp-ab.bbroot.com/temp/7b39363decb4c36f407feeb1336ad2ce.jpg">在线图片链接</a></p><div class="table-container"><table><thead><tr><th>项目标号</th><th>资金</th><th>备注</th></tr></thead><tbody><tr><td>1</td><td>100，000</td><td>无</td></tr><tr><td>2</td><td>200，000</td><td>无</td></tr><tr><td>3</td><td>300,600</td><td>重要</td></tr></tbody></table></div><p>这是一个行内公式示例：$E = mc^2$</p><script type="math/tex; mode=display">\int_{-\infty}^{\infty} e^{-x^2} dx = \sqrt{\pi}</script><details class="toggle" ><summary class="toggle-button" style="">code detail</summary><div class="toggle-content"><p>代码内容</p></div></details><div class="tabs"><div class="nav-tabs"><button type="button" class="tab active">代码</button><button type="button" class="tab">预览</button></div><div class="tab-contents"><div class="tab-item-content active"><p>这里是代码</p></div><div class="tab-item-content"><p>这里是预览</p></div></div><div class="tab-to-top"><button type="button" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div><div class="timeline "><div class='timeline-item headline'>        <div class='timeline-item-title'>          <div class='item-circle'><p>2026</p></div>        </div>      </div><div class='timeline-item'>        <div class='timeline-item-title'>          <div class='item-circle'><p>07-027</p></div>        </div>        <div class='timeline-item-content'><p>这是测试页面</p></div>      </div></div><h2 id="H2"><a href="#H2" class="headerlink" title="H2"></a>H2</h2><h3 id="H3"><a href="#H3" class="headerlink" title="H3"></a>H3</h3><h4 id="H4"><a href="#H4" class="headerlink" title="H4"></a>H4</h4><h5 id="H5"><a href="#H5" class="headerlink" title="H5"></a>H5</h5><h6 id="H6"><a href="#H6" class="headerlink" title="H6"></a>H6</h6>]]></content>
       
+      
+      <categories>
+          
+          <category> 代码 </category>
+          
+      </categories>
       
       
         <tags>
@@ -30,6 +61,12 @@
         <content type="html"><![CDATA[]]></content>
       
       
+      <categories>
+          
+          <category> 闲置文章 </category>
+          
+      </categories>
+      
       
         <tags>
             
@@ -48,6 +85,12 @@
       
         <content type="html"><![CDATA[<p>《史记》，二十四史之一，最初称为《太史公书》或《太史公记》《太史记》，是西汉史学家司马迁撰写的纪传体史书，是中国历史上第一部纪传体通史，记载了上至上古传说中的黄帝时代，下至汉武帝太初四年间共三千多年的历史。太初元年（前104年），司马迁开始了该书创作，前后经历了十四年，才得以完成。《史记》全书包括十二本纪（记历代帝王政绩）、三十世家（记诸侯国和汉代诸侯、勋贵兴亡）、七十列传（记重要人物的言行事迹，主要叙人臣，其中最后一篇为自序）、十表（大事年表）、八书（记各种典章制度记礼、乐、音律、历法、天文、封禅、水利、财用）。《史记》共一百三十篇，五十二万六千五百余字，比《淮南子》多三十九万五千余字，比《吕氏春秋》多二十八万八千余字。《史记》规模巨大，体系完备，而且对此后的纪传体史书影响很深，历朝正史皆采用这种体裁撰写。《史记》被列为“二十四史”之首，对后世史学和文学的发展都产生了深远影响，其首创的纪传体编史方法为后来历代“正史”所传承。《史记》还被认为是一部优秀的文学著作，在中国文学史上有重要地位，被鲁迅誉为“史家之绝唱，无韵之离骚”，有很高的文学价值。刘向等人认为此书“善序事理，辩而不华，质而不俚”。《史记》与《汉书》、《东观汉记》并称“三史”，为唐代科举之常科，又与《汉书》《后汉书》《三国志》合称“前四史”。</p>]]></content>
       
+      
+      <categories>
+          
+          <category> 首发 </category>
+          
+      </categories>
       
       
     </entry>
