@@ -4,6 +4,37 @@
   
     
     <entry>
+      <title>图标测试</title>
+      <link href="/2026/07/29/%E5%9B%BE%E6%A0%87%E6%B5%8B%E8%AF%95/"/>
+      <url>/2026/07/29/%E5%9B%BE%E6%A0%87%E6%B5%8B%E8%AF%95/</url>
+      
+        <content type="html"><![CDATA[<p><i class="iconfont icon-tilong"></i></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 测试 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> problem </tag>
+            
+            <tag> question </tag>
+            
+            <tag> blog </tag>
+            
+            <tag> hexo </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Hexo更新后可能遇到的新问题1.0</title>
       <link href="/2026/07/27/Hexo%E6%9B%B4%E6%96%B0%E5%90%8E%E5%8F%AF%E8%83%BD%E9%81%87%E5%88%B0%E7%9A%84%E6%96%B0%E9%97%AE%E9%A2%981-0/"/>
       <url>/2026/07/27/Hexo%E6%9B%B4%E6%96%B0%E5%90%8E%E5%8F%AF%E8%83%BD%E9%81%87%E5%88%B0%E7%9A%84%E6%96%B0%E9%97%AE%E9%A2%981-0/</url>
@@ -20,32 +51,13 @@
       
         <tags>
             
-            <tag> text </tag>
+            <tag> problem </tag>
             
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>代码展示</title>
-      <link href="/2026/07/13/%E4%BB%A3%E7%A0%81%E5%B1%95%E7%A4%BA/"/>
-      <url>/2026/07/13/%E4%BB%A3%E7%A0%81%E5%B1%95%E7%A4%BA/</url>
-      
-        <content type="html"><![CDATA[<h1 id="整体展示"><a href="#整体展示" class="headerlink" title="整体展示"></a>整体展示</h1><p><u>下划线演示</u></p><p>文字<strong>加粗</strong>演示</p><p>文字<em>斜体</em>演示</p><p>文本<code>高亮</code>演示</p><p>文本<del>删除</del>线演示</p><font size = 5>5号字</font><font face="黑体">黑体</font><font color=blue>蓝色</font><font face="微软雅黑">微软雅黑</font><font face="STCAIYUN">华文彩云</font><font color=#008000>绿色</font><font color=Red>红色</font><font size=5>尺寸</font><font face="黑体" color=green size=5>黑体，绿色，尺寸为5（任意内容）</font><table><tr><td bgcolor=MistyRose>这里的背景色是：MistyRosen，此处输入任意想输入的内容</td></tr></table><blockquote><p> Java<br>二级引用演示<br>MySQL</p><blockquote><p>外键</p><p>事务</p><p><strong>行级锁</strong>(引用内部一样可以用格式)</p></blockquote><p>….</p></blockquote><hr><hr><ul><li>Java</li><li>Python</li><li>…</li></ul><ul><li>Java</li><li>Python</li><li>…</li></ul><ul><li>Java</li><li>Python</li><li>…</li></ul><!-- # 注意后面有空格 --><ol><li></li><li></li><li></li><li></li></ol><p>本地图片<br><img src="/image/7.jpg" alt="示例图片" style="zoom:50%;" /></p><p><a href="http://bee-temp-ab.bbroot.com/temp/7b39363decb4c36f407feeb1336ad2ce.jpg">在线图片链接</a></p><div class="table-container"><table><thead><tr><th>项目标号</th><th>资金</th><th>备注</th></tr></thead><tbody><tr><td>1</td><td>100，000</td><td>无</td></tr><tr><td>2</td><td>200，000</td><td>无</td></tr><tr><td>3</td><td>300,600</td><td>重要</td></tr></tbody></table></div><p>这是一个行内公式示例：$E = mc^2$</p><script type="math/tex; mode=display">\int_{-\infty}^{\infty} e^{-x^2} dx = \sqrt{\pi}</script><details class="toggle" ><summary class="toggle-button" style="">code detail</summary><div class="toggle-content"><p>代码内容</p></div></details><div class="tabs"><div class="nav-tabs"><button type="button" class="tab active">代码</button><button type="button" class="tab">预览</button></div><div class="tab-contents"><div class="tab-item-content active"><p>这里是代码</p></div><div class="tab-item-content"><p>这里是预览</p></div></div><div class="tab-to-top"><button type="button" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div><div class="timeline "><div class='timeline-item headline'>        <div class='timeline-item-title'>          <div class='item-circle'><p>2026</p></div>        </div>      </div><div class='timeline-item'>        <div class='timeline-item-title'>          <div class='item-circle'><p>07-027</p></div>        </div>        <div class='timeline-item-content'><p>这是测试页面</p></div>      </div></div><h2 id="H2"><a href="#H2" class="headerlink" title="H2"></a>H2</h2><h3 id="H3"><a href="#H3" class="headerlink" title="H3"></a>H3</h3><h4 id="H4"><a href="#H4" class="headerlink" title="H4"></a>H4</h4><h5 id="H5"><a href="#H5" class="headerlink" title="H5"></a>H5</h5><h6 id="H6"><a href="#H6" class="headerlink" title="H6"></a>H6</h6>]]></content>
-      
-      
-      <categories>
-          
-          <category> 代码 </category>
-          
-      </categories>
-      
-      
-        <tags>
+            <tag> question </tag>
             
-            <tag> text </tag>
+            <tag> blog </tag>
+            
+            <tag> hexo </tag>
             
         </tags>
       
@@ -79,6 +91,31 @@
     
     
     <entry>
+      <title>代码展示</title>
+      <link href="/2026/07/13/%E4%BB%A3%E7%A0%81%E5%B1%95%E7%A4%BA/"/>
+      <url>/2026/07/13/%E4%BB%A3%E7%A0%81%E5%B1%95%E7%A4%BA/</url>
+      
+        <content type="html"><![CDATA[<h1 id="整体展示"><a href="#整体展示" class="headerlink" title="整体展示"></a>整体展示</h1><p><u>下划线演示</u></p><p>文字<strong>加粗</strong>演示</p><p>文字<em>斜体</em>演示</p><p>文本<code>高亮</code>演示</p><p>文本<del>删除</del>线演示</p><font size = 5>5号字</font><font face="黑体">黑体</font><font color=blue>蓝色</font><font face="微软雅黑">微软雅黑</font><font face="STCAIYUN">华文彩云</font><font color=#008000>绿色</font><font color=Red>红色</font><font size=5>尺寸</font><font face="黑体" color=green size=5>黑体，绿色，尺寸为5（任意内容）</font><table><tr><td bgcolor=MistyRose>这里的背景色是：MistyRosen，此处输入任意想输入的内容</td></tr></table><blockquote><p> Java<br>二级引用演示<br>MySQL</p><blockquote><p>外键</p><p>事务</p><p><strong>行级锁</strong>(引用内部一样可以用格式)</p></blockquote><p>….</p></blockquote><hr><hr><ul><li>Java</li><li>Python</li><li>…</li></ul><ul><li>Java</li><li>Python</li><li>…</li></ul><ul><li>Java</li><li>Python</li><li>…</li></ul><!-- # 注意后面有空格 --><ol><li></li><li></li><li></li><li></li></ol><p>本地图片<br><img src="/image/7.jpg" alt="示例图片" style="zoom:50%;" /></p><p><a href="http://bee-temp-ab.bbroot.com/temp/7b39363decb4c36f407feeb1336ad2ce.jpg">在线图片链接</a></p><div class="table-container"><table><thead><tr><th>项目标号</th><th>资金</th><th>备注</th></tr></thead><tbody><tr><td>1</td><td>100，000</td><td>无</td></tr><tr><td>2</td><td>200，000</td><td>无</td></tr><tr><td>3</td><td>300,600</td><td>重要</td></tr></tbody></table></div><p>这是一个行内公式示例：$E = mc^2$</p><script type="math/tex; mode=display">\int_{-\infty}^{\infty} e^{-x^2} dx = \sqrt{\pi}</script><details class="toggle" ><summary class="toggle-button" style="">code detail</summary><div class="toggle-content"><p>代码内容</p></div></details><div class="tabs"><div class="nav-tabs"><button type="button" class="tab active">代码</button><button type="button" class="tab">预览</button></div><div class="tab-contents"><div class="tab-item-content active"><p>这里是代码</p></div><div class="tab-item-content"><p>这里是预览</p></div></div><div class="tab-to-top"><button type="button" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div><div class="timeline "><div class='timeline-item headline'>        <div class='timeline-item-title'>          <div class='item-circle'><p>2026</p></div>        </div>      </div><div class='timeline-item'>        <div class='timeline-item-title'>          <div class='item-circle'><p>07-027</p></div>        </div>        <div class='timeline-item-content'><p>这是测试页面</p></div>      </div></div><h2 id="H2"><a href="#H2" class="headerlink" title="H2"></a>H2</h2><h3 id="H3"><a href="#H3" class="headerlink" title="H3"></a>H3</h3><h4 id="H4"><a href="#H4" class="headerlink" title="H4"></a>H4</h4><h5 id="H5"><a href="#H5" class="headerlink" title="H5"></a>H5</h5><h6 id="H6"><a href="#H6" class="headerlink" title="H6"></a>H6</h6>]]></content>
+      
+      
+      <categories>
+          
+          <category> 代码 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> text </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Records of the Grand Historian</title>
       <link href="/2026/07/07/try-again-never-give-up/"/>
       <url>/2026/07/07/try-again-never-give-up/</url>
@@ -88,7 +125,7 @@
       
       <categories>
           
-          <category> 首发 </category>
+          <category> 测试 </category>
           
       </categories>
       
