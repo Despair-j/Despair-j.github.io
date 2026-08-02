@@ -8,7 +8,7 @@
       <link href="/2026/07/31/%E7%9D%81%E7%9C%BC%E7%9C%8B%E4%B8%96%E7%95%8C/"/>
       <url>/2026/07/31/%E7%9D%81%E7%9C%BC%E7%9C%8B%E4%B8%96%E7%95%8C/</url>
       
-        <content type="html"><![CDATA[<h2 id="地图展示"><a href="#地图展示" class="headerlink" title="地图展示"></a>地图展示</h2><link rel="stylesheet" href="//unpkg.com/hexo-tag-map/lib/leaflet@1.7.1.css"><script data-pjax src="//unpkg.com/hexo-tag-map/lib/leaflet@1.7.1.js"></script><script data-pjax src="//unpkg.com/hexo-tag-map/lib/leaflet.ChineseTmsProviders@1.0.4.js"></script><div class="map-box" style="margin: 0.8rem 0 1.6rem 0;"><div id="gaodeMap-121.41485867097282-31.16397119780105" style="max-width:100%; height:360px;display: block;margin:0 auto;z-index:1;border-radius: 5px;"></div></div><script type="text/javascript">var normalm=L.tileLayer.chinaProvider('GaoDe.Normal.Map',{maxZoom:20,minZoom:1,attribution:'高德地图'});var imgm=L.tileLayer.chinaProvider('GaoDe.Satellite.Map',{maxZoom:20,minZoom:1,attribution:'高德地图'});var imga=L.tileLayer.chinaProvider('GaoDe.Satellite.Annotion',{maxZoom:20,minZoom:1,attribution:'高德地图'});var normal=L.layerGroup([normalm]),image=L.layerGroup([imgm,imga]);var baseLayers={"高德地图":normal,"高德卫星地图":imgm,"高德卫星标注":image};var mymap=L.map('gaodeMap-121.41485867097282-31.16397119780105',{center:[31.16397119780105,121.41485867097282],zoom:14,layers:[normal],zoomControl:false});L.control.layers(baseLayers,null).addTo(mymap);L.control.zoom({zoomInTitle:'放大',zoomOutTitle:'缩小'}).addTo(mymap);var marker = L.marker(['31.16397119780105','121.41485867097282']).addTo(mymap);marker.bindPopup("我听见了你的声音🎶怕脱口而出是你姓名🏷️").openPopup();</script>]]></content>
+        <content type="html"><![CDATA[<h2 id="地图展示"><a href="#地图展示" class="headerlink" title="地图展示"></a>地图展示</h2><div class="tip warning faa-horizontal animated faa-fast"><p>如果没有显示就重新打开一遍</p></div><link rel="stylesheet" href="//unpkg.com/hexo-tag-map/lib/leaflet@1.7.1.css"><script data-pjax src="//unpkg.com/hexo-tag-map/lib/leaflet@1.7.1.js"></script><script data-pjax src="//unpkg.com/hexo-tag-map/lib/leaflet.ChineseTmsProviders@1.0.4.js"></script><div class="map-box" style="margin: 0.8rem 0 1.6rem 0;"><div id="gaodeMap-121.41485867097282-31.16397119780105" style="max-width:100%; height:360px;display: block;margin:0 auto;z-index:1;border-radius: 5px;"></div></div><script type="text/javascript">var normalm=L.tileLayer.chinaProvider('GaoDe.Normal.Map',{maxZoom:20,minZoom:1,attribution:'高德地图'});var imgm=L.tileLayer.chinaProvider('GaoDe.Satellite.Map',{maxZoom:20,minZoom:1,attribution:'高德地图'});var imga=L.tileLayer.chinaProvider('GaoDe.Satellite.Annotion',{maxZoom:20,minZoom:1,attribution:'高德地图'});var normal=L.layerGroup([normalm]),image=L.layerGroup([imgm,imga]);var baseLayers={"高德地图":normal,"高德卫星地图":imgm,"高德卫星标注":image};var mymap=L.map('gaodeMap-121.41485867097282-31.16397119780105',{center:[31.16397119780105,121.41485867097282],zoom:14,layers:[normal],zoomControl:false});L.control.layers(baseLayers,null).addTo(mymap);L.control.zoom({zoomInTitle:'放大',zoomOutTitle:'缩小'}).addTo(mymap);var marker = L.marker(['31.16397119780105','121.41485867097282']).addTo(mymap);marker.bindPopup("我听见了你的声音🎶怕脱口而出是你姓名🏷️").openPopup();</script>]]></content>
       
       
       <categories>
@@ -25,35 +25,6 @@
             <tag> earth </tag>
             
             <tag> map </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>B站剪辑视频欣赏</title>
-      <link href="/2026/07/30/%E5%89%AA%E8%BE%91%E8%A7%86%E9%A2%91/"/>
-      <url>/2026/07/30/%E5%89%AA%E8%BE%91%E8%A7%86%E9%A2%91/</url>
-      
-        <content type="html"><![CDATA[<div class="tip home faa-horizontal animated-hover"><p>喜欢的话就去关注我的B站账号吧！<a href="https://space.bilibili.com/2131351003?spm_id_from=333.1007.0.0">山川古人-绝</a></p></div><div align=center class="aspect-ratio">    <iframe src="https://player.bilibili.com/player.html?aid=665005298&&page=1&as_wide=1&high_quality=1&danmaku=0"     scrolling="no"     border="0"     frameborder="no"     framespacing="0"     high_quality=1    danmaku=1     allowfullscreen="true">     </iframe></div>]]></content>
-      
-      
-      <categories>
-          
-          <category> 视频 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> video </tag>
-            
-            <tag> relax </tag>
-            
-            <tag> game </tag>
             
         </tags>
       
@@ -83,6 +54,35 @@
             <tag> question </tag>
             
             <tag> shopping </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>B站剪辑视频欣赏</title>
+      <link href="/2026/07/30/%E5%89%AA%E8%BE%91%E8%A7%86%E9%A2%91/"/>
+      <url>/2026/07/30/%E5%89%AA%E8%BE%91%E8%A7%86%E9%A2%91/</url>
+      
+        <content type="html"><![CDATA[<div class="tip home faa-horizontal animated-hover"><p>喜欢的话就去关注我的B站账号吧！<a href="https://space.bilibili.com/2131351003?spm_id_from=333.1007.0.0">山川古人-绝</a></p></div><div align=center class="aspect-ratio">    <iframe src="https://player.bilibili.com/player.html?aid=665005298&&page=1&as_wide=1&high_quality=1&danmaku=0"     scrolling="no"     border="0"     frameborder="no"     framespacing="0"     high_quality=1    danmaku=1     allowfullscreen="true">     </iframe></div>]]></content>
+      
+      
+      <categories>
+          
+          <category> 视频 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> video </tag>
+            
+            <tag> relax </tag>
+            
+            <tag> game </tag>
             
         </tags>
       
